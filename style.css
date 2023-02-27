@@ -1,0 +1,43 @@
+body{
+
+    margin: 0px;
+    display: grid;
+    grid-template-areas:
+    'app'
+    'interfejs';
+
+    grid-template-rows: 75vh 25vh;
+    grid-template-columns: 100%;
+}
+
+#interfejs{
+    background-color: darkblue;
+
+}
+
+#app{
+    padding: 25px;
+    background-color: darkblue;
+    border-bottom: 1px solid yellow;
+    color: lightblue;
+    
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.toDo{
+    height: 150px;
+    width: 150px;
+    border: 1px solid yellow;
+    padding: 10px;
+}
+
+.done{
+    background-color: green;
+}
+.nDone{
+    background-color: red;
+}
